@@ -12,7 +12,7 @@
 // Program 2
 
 // Boolean values
-
+//
 // if(false) {
 //     document.write('<p>The condition is true </p>');
 // } else {
@@ -84,9 +84,9 @@
 
 // Program 5
 
-// && operator and || operators
-// In case of any if statement , If the condition is met for the first block of the code , the code inside the
-// block will run and the remaining valid block will be skipped
+&& operator and || operators
+In case of any if statement , If the condition is met for the first block of the code , the code inside the
+block will run and the remaining valid block will be skipped
 
 // Asking the questions will have , a typical way , we can easily solve this things  using functions
 
@@ -95,9 +95,9 @@
 //quiz begins , no answers correct
 
 
-// var correct = 0;
+ var correct = 0;
 //
-// // ask questions
+// ask questions
 // var answerOne  = prompt("Name a programming language that's also a gem?");
 // if(answerOne.toUpperCase() === "RUBY"){
 //     correct += 1;
@@ -119,10 +119,10 @@
 //   if(answerFive.toUpperCase() === "JAVASCRIPT"){
 //       correct += 1;
 //   }
-//
-// //  output results .
-//
-//
+
+//  output results .
+
+
 // document.write("<p>You got "+ correct +"out of 5 questions </p>")
 //
 // // output rank
@@ -157,7 +157,7 @@ alertRandoma();
 
 // we need to add semicolon
 
-//program 7
+program 7
 var alertRandom = function(){
   var randomNumber = Math.floor(Math.random() * 6) + 1;
   alert(randomNumber);
@@ -172,15 +172,16 @@ alertRandom();
 // program 8
 
 // Returning a random number .
- function getRandomNumber(){
-  var randomNumber = Math.floor(Math.random() * 6) + 1;
-  return randomNumber;
-}
-
-console.log(getRandomNumber());
-alert(getRandomNumber());
-var dieRoll = getRandomNumber();
-console.log(dieRoll);
+//  function getRandomNumber(){
+//   var randomNumber = Math.floor(Math.random() * 6) + 1;
+//   return randomNumber;
+// }
+//
+// console.log(getRandomNumber());
+// alert(getRandomNumber());
+// var dieRoll = getRandomNumber();
+// console.log(dieRoll);
+// document.write();
 
 // Return statement always returns one value
 // Return statement exits the function immediatetly
@@ -193,3 +194,124 @@ console.log(dieRoll);
 
 // passing argument to the functions
 // functions will have arguments
+// Functions basically breaks the top to bottom flow of program
+
+// Giving information to the function via arguments , saving them as parameter
+// using them in function.
+
+
+// Random Number  by setting upper limit to pass as a argument
+//to the fucntion defintion which saves it as parameter
+// program 10
+
+var x = 10
+
+// function randomNumberG(upper){
+//   var x = Math.floor(Math.random()*upper) + 1;
+//   return x;
+// }
+// console.log(randomNumberG(9));
+// console.log(randomNumberG(90));
+// console.log(randomNumberG(999));
+
+// program 11
+
+// Finding the area of the rectangle
+
+// using 2 parameter
+// function areaOfRectangle(length,width){
+//   var area = length * width;
+//   return area ;
+// }
+// console.log(areaOfRectangle(7,8));
+
+// using three parameters
+//
+// function areaofRectangle(length,width,unit){
+//    var areay = length * width ;
+//    //console.log(areay);
+//    return areay + " "+ unit;
+// }
+//
+// console.log(areaofRectangle(2,3,"sq per unit"));
+// console.log(areaofRectangle(2,3,"sq per unit"));
+
+// Program 10
+
+// Scope of variable
+
+
+// We will end up adding multiple functions to your script
+
+// Scope for variable  each function.
+
+
+// Keeping two variable different
+
+var wakeUp = "Hello";
+function writingVar(){
+  var wakeUp = "Sid";
+  return wakeUp;
+}
+alert(writingVar());
+alert(wakeUp);
+
+// Changing global varaible inside a varaible .
+
+// var wakeUp = "Hello";
+// function writingVar(){
+//    wakeUp = "Sid";
+//   return wakeUp;
+// }
+// alert(wakeUp);
+// alert(writingVar());
+
+// var wakeUp = "Hello";
+// function writingVar(){
+//    wakeUp = "Sid";
+//   return wakeUp;
+// }
+//
+// alert(writingVar());
+// alert(wakeUp);
+
+
+// program 11
+ // Using function set the upper and lower limit to generate random number
+ //and update the same
+
+function generateRandom(lower, upper){
+  return Math.floor(Math.random() * (upper - lower + 1) + lower);
+}
+console.log(generateRandom(1,100));
+console.log(generateRandom(101,200));
+console.log(generateRandom(201,300));
+console.log(generateRandom(301,400));
+
+Breaking the program intentionally
+
+console.log("nice" , 89);
+console.log("nice" ,900);
+
+The function just wont work if we pass one string value
+
+
+// program 12
+
+
+//https://stackoverflow.com/questions/9156176/what-is-the-difference-between-throw-new-error-and-throw-someobject
+
+// Checking whether the user entered any "string" instead of number.
+
+// function randomGenerator (lower , upper){
+//   if(isNaN(lower) || isNaN(upper)){
+//     // throw new Error('Both the numbers should be integers');
+//      console.log("Both the arguments should be number");
+//   }
+//   return Math.floor(Math.random() * (upper - lower + 1) + lower);
+//
+// }
+//
+// console.log(randomGenerator(8 , 9));
+// //randomGenerator(8 , 9);
+// console.log(randomGenerator("New" , 9));

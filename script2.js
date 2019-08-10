@@ -2,15 +2,15 @@
 // // Working with number
 //
 // // program One
-// var numberOfSecondsInMinute = 60;
-// var numberOfMinutesInHour = 60 ;
-// var numberOfHoursInDays = 24;
-// var numberOfDaysInWeek = 7;
-// var numberOfDaysInYear = 365;
-// var numberofDaysInMonth = 31;
-// var numberOfWeeksInYears = 52;
-// var secondsPerDay = numberOfSecondsInMinute * numberOfMinutesInHour * numberOfHoursInDays;
-// document.write('There are '+secondsPerDay+' seconds in a day');
+var numberOfSecondsInMinute = 60;
+var numberOfMinutesInHour = 60 ;
+var numberOfHoursInDays = 24;
+var numberOfDaysInWeek = 7;
+var numberOfDaysInYear = 365;
+var numberofDaysInMonth = 31;
+var numberOfWeeksInYears = 52;
+var secondsPerDay = numberOfSecondsInMinute * numberOfMinutesInHour * numberOfHoursInDays;
+document.write('There are '+secondsPerDay+' seconds in a day');
 
 // // Program 2
 // // prompt() returns us the string varaible.
@@ -33,7 +33,7 @@
 // // The Mad libs challenge presented
 //
 // // Let the player know how many questios are remained to be answer.
-//
+
 // var questions = 3;
 // var questiosLeft = '[' + questions + 'questionsLeft]';
 // var adjective = prompt("Please Enter the adjective"+ questiosLeft);
@@ -52,7 +52,7 @@
 // //program statement 5
 // //Generating Random number using javascript
 //
-// Use Math.object to generate the random number .
+// Use Math object to generate the random number .
 //
 // Math.random returns the number between 0 and 1
 //
@@ -68,8 +68,8 @@
 //
 // //Rolling the dice
 //
-// var x = Math.floor(Math.random() * 6) + 1;
-// alert("you have rolled the number " + x);
+var x = Math.floor(Math.random() * 6) + 1;
+alert("you have rolled the number " + x);
 //
 //
 // //Program 7
@@ -85,10 +85,10 @@
 //
 // // program 8
 //
-// var userInput = parseInt(prompt("please Enter a starting value?"));
-// var userInput2 = parseInt(prompt("please Enter a ending value?"));
-// var randomNumber = Math.floor(Math.random() * (userInput2 - userInput+1)) + userInput;
-// alert("you have rolled the number " + randomNumber);
+var lower = parseInt(prompt("please Enter a starting value?"));
+var upper = parseInt(prompt("please Enter a ending value?"));
+var randomNumber = Math.floor(Math.random() * (upper - lower+1)) + lower;
+alert("you have rolled the number " + randomNumber);
 //
 // //program 9
 
@@ -97,12 +97,12 @@
 // and came the case of uppercase.
 
 
-  // var answer = prompt('What programming language is the name of your gem?');
-  //   if(answer.toUpperCase() === 'RUBY'){
-  //       document.write("<p> That's right </p>");
-  //   } else {
-  //      document.write("<p> Sorry , that's wrong .</p>")
-  //   }
+  var answer = prompt('What programming language is the name of your gem?');
+    if(answer.toUpperCase() === 'RUBY'){
+        document.write("<p> That's right </p>");
+    } else {
+       document.write("<p> Sorry , that's wrong .</p>")
+    }
 
 
   //program 10
@@ -136,7 +136,7 @@
     console.log(false);
   }
 
-
+//
 // If you compare a number with a string with numeric literal, == allows that,
 // but === doesn't allow that, because it not only checks the value but also
 // type of two variable,if two variables are not of the same type "===" return
@@ -145,7 +145,7 @@
 
 // program 11
 
-// console.log(a);
+//console.log(a);
 // console.log('apple' < 'bear')
 // console.log(2 > 4)
 // console.log(100 >= 100)

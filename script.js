@@ -58,19 +58,20 @@ document.write("New implemented features");
 // // Writing string in various  forms .
 //
 //
-// var checking = "String in double quote";
-// console.log(checking);
-// checking = 'String in single quote';
-// console.log(checking);
-// checking = "single quote one's within double quote";
-// console.log(checking);
-// checking = 'double quote one"s within single quote';
-// console.log(checking);
-// checking = 'single one\'s with blackslash';
-// console.log(checking);
-// checking = "double quote\" with blacklash";
-// console.log(checking);
-//
+var checking = "String in double quote";
+console.log(checking);
+checking = 'String in single quote';
+console.log(checking);
+checking = "single quote one's within double quote";
+console.log(checking);
+checking = 'double quote one"s within single quote';
+console.log(checking);
+checking = 'single one\'s with blackslash';
+console.log(checking);
+checking = "double quote\" with blacklash";
+console.log(checking);
+console.log(`my new string ${checking}`)
+
 // // program statement 5
 //
 // // Captuting visitor input
@@ -112,7 +113,7 @@ document.write("New implemented features");
 // console.log(passpharse);
 // console.log(passpharse.toUpperCase());
 // console.log(passpharse);
-//
+
 // Program statement 8
 //
 // shout app
