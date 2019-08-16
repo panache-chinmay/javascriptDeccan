@@ -72,6 +72,16 @@ checking = "double quote\" with blacklash";
 console.log(checking);
 console.log(`my new string ${checking}`)
 
+
+// String is object
+
+// Object has properties and methods
+
+// Basic property ---Length
+
+
+
+
 // // program statement 5
 //
 // // Captuting visitor input

@@ -4,21 +4,21 @@
 // What we have learn so far
 
 
-          // Simple variables
-
-         //  Conditional statements
-
-         //  Strings
-
-        // Numbers
-
+       //    Simple variables
+       //
+       //    Conditional statements
+       //
+       //    Strings
+       //
+       //  Numbers
+       //
        // Booleans
-
+       //
        // Functions
 
-
+       //
        // Loops are used to run certain set of programs again
-       //and again under several conditions are met .
+       // and again under several conditions are met .
 
 // While loop in javascript
 
@@ -95,7 +95,7 @@ it should running, else will run infinitely
 
 // Check whether use entered number and random number get same and check whether the
 // GuessCount
-
+//
 // var randomNumber = guessRandom(10);
 // var guess ;
 // var guessCount = 0 ;
@@ -131,13 +131,15 @@ it should running, else will run infinitely
 //var i = 0 (this code runs only once), the condition is checked ,then the
 // increment will happen , if the condition is failed the loop will exits
 
-// html ="";
-//
-// for(var i = 0 ; i < 10 ; i++ ){
-//   html += "<div>" + i + "</div>";
-// }
-//
-// document.write(html);
+var html ="";
+
+for(var i = 0 ; i < 10 ; i++ ){
+  html += "<h4>" + i + "</h4>";
+}
+console.log(html);
+
+
+document.write(html);
 
 // program 5 (Existing loops)
 
@@ -148,7 +150,7 @@ it should running, else will run infinitely
 // after the break statement will not run
 
 
-
+//
 // var guessCount = 0 ;
 // var guess;
 // var randomNumber = guessRandomNumber(6) ;
@@ -198,20 +200,20 @@ it should running, else will run infinitely
 
 // Program 6
 
-//The refactor challenge
-
+// The refactor challenge
+//
 // Basically improving the code means ,
-
+//
 // 1) Improving the design to make it run faster
-
+//
 // 2) Commenting the code , to make it easy to read and understand
-
+//
 // 3) The most important aspect is to apply DRY principle to your programming
-
-// 4) Loops are the one way of saying don't repeaat yourself
-
-// 5)  Javascript functions are another way in impress DRY programming
-
+//
+// 4) Loops are the one way of saying don't repeat yourself
+//
+// 5)  Javascript functions are another way which impressed DRY programming
+//
 // JAVASCRIPT IS NOTHING BUT THE REUSABLE container
 
 
@@ -334,15 +336,15 @@ it should running, else will run infinitely
 // // program 7 (b)
 
 
-var htmlb = " ";
-for(var i = 0 ; i < 10 ; i++){
-  htmlb += '<div style = "background-color:'+generateColor()+'"></div>';
-}
-document.write(htmlb);
-function generateColor(){
-return 'rgb('+ Math.floor(Math.random()*256) +','+ Math.floor(Math.random()*256) +','+Math.floor(Math.random()*256) +')'
-}
-document.write(htmlb);
+// var htmlb = " ";
+// for(var i = 0 ; i < 10 ; i++){
+//   htmlb += '<div style = "background-color:'+generateColor()+'"></div>';
+// }
+// document.write(htmlb);
+// function generateColor(){
+// return 'rgb('+ Math.floor(Math.random()*256) +','+ Math.floor(Math.random()*256) +','+Math.floor(Math.random()*256) +')'
+// }
+// document.write(htmlb);
 
 //Note :- you should declare the variable at the top of the script2
 // If the varaible is declared inside the function , it should be declared at the top

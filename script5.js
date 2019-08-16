@@ -1,26 +1,29 @@
-// Tracking multiple items with arrays
-
-// Array is basically calles as data struture , it is basically one way of storing
-//information
-
-//The problem with one varaible is that , it only holds one value
-
-// Considering the example of shooping cart
-
-// If you add 100 items in shopping list , you need to create 100 variables ,
-// which is not feasible
-
-
-// Array can store another array , string , int .
-
-// Syntax to create array .
-
-// The values inside the array can be , separted
-
-// Arrays of String
-
-// var myShopping  = ["Ameya","Sandip","Rohit","Raghav","Raman"];
+// // Tracking multiple items with arrays
+// //
+// // Array is basically called as data struture , it is basically one way of storing
+// // information
+// //
+// // The problem with one varaible is that , it only holds one value
+// //
+// // Considering the example of shooping cart
+// //
+// // If you add 100 items in shopping list , you need to create 100 variables ,
+// // which is not feasible
 //
+//
+// // Array can store another array , string , int .
+//
+// // Syntax to create array .
+//
+// // The values inside the array can be , separted
+//
+// Arrays of String
+//
+//
+// var arrayName = [];
+//
+// var myShopping  = ["Ameya","Sandip","Rohit","Raghav","Raman"];
+// //
 // // Arrays of Numbers
 //
 // var myRollNumbers = [23,43,54,56,78];
@@ -28,16 +31,16 @@
 // //Arrays of Mixed data types
 //
 // var myNameAndRollNumber  = ["Ameya",1,"1",2,33];
+// //
+// // // Array within array
+// //
+// // var ArraysWithinArray = [1,2,3,4,5];
 //
-// // Array within array
+// // [] brackets indicate its a array literal
 //
-// var ArraysWithinArray = [1,2,3,4,5];
-
-// [] brackets indicate its a array literal
-
-// Breaking the array over multiple lines
-
-
+// // Breaking the array over multiple lines
+//
+//
 // var shoppingList = [
 //   'carrots',
 //   'milks',
@@ -80,26 +83,32 @@
 // Modulars , librabies and plugin .. which are already developed in js and can be used
 // to benefit
 
-// function printList(list){
-//   var listHTML = '<ul>';
-//   for(var i = 0 ; i < list.length ; i++){
-//     listHTML += '<li>' + list[i] + '</li>';
-//   }
-//
-//   listHTML += '</ul>';
-//   print(listHTML)
-// }
-//
+var  list = ["Javascript" ,"HTML","CSS"];
+
+function printList(list){
+  var listHTML = '<ul>';
+  for(var i = 0 ; i < list.length ; i++){
+    listHTML += '<li>' + list[i] + '</li>';
+  }
+
+  listHTML += '</ul>';
+  console.log(listHTML)
+  //print(listHTML)
+  document.write(listHTML)
+}
+
 // function print(html){
 //   document.write(html)
 // }
+
+printList(list)
 
 
 // Add items to the end of array
 // Adding items to the beginning of array
 // Printing the item to array.
 
-// Please let me know the return type of psuh() and unshift method();
+// Please let me know the return type of push() and unshift method();
 
 //push() and unshift returns the length of array
 
@@ -122,7 +131,7 @@
 // // Updating value of Array via index
 //
 // //printList(playList);
-// playList[2] = "2" // Are arrays mutable ?
+//playList[2] = "2" // Are arrays mutable ?
 //
 // console.log(playList)
 
@@ -164,13 +173,13 @@
 // Where arrays can be used ..
 
 // 1) To store the item in do to list
-
+//
 // 2) To store the name of all variables in data list
-
+//
 // 3) To track the questions in the list
-
+//
 // 4) To store information for your last 20 tweets
-
+//
 // 5) To stores answers for the quizs
 
 
@@ -178,17 +187,17 @@
 
 // program 5
 
-// var names = ['Chinmay','Deshpande','Sammer','Sheikh'];
-// // Without using length property
-// // console.log(name[1]);
-// // alert(name[2]);
-//   for (var i = 0 ; i < 4; i += 1){
-//     console.log(names[i]);
-//   }
-// // with using length property
-// for(var i = 0 ; i < names.length ; i += 1){
-//   console.log(names[i]);
-// }
+var names = ['Chinmay','Deshpande','Sammer','Sheikh','chinmayDeshpabde'];
+// Without using length property
+// console.log(name[1]);
+// alert(name[2]);
+  for (var i = 0 ; i < 4; i += 1){
+    console.log(names[i]);
+  }
+// with using length property
+for(var i = 0 ; i < names.length ; i += 1){
+  console.log(names[i]);
+}
 
 // Playlist Solutions and printing it in ordered list
 
@@ -413,41 +422,41 @@
 
 
 //Generic solutions
-
-var questions = [
-  ['How are states are there in united states' , 50],
-  ['How many continents are there ?' ,7],
-  ['How many legs does an insect have?',6]
-];
-
-var  correctAnswers = 0;
-var question;
-var answer;
-var response;
-var html;
-
-function print(message){
-  //document.write(message);
-
-  var outPut = document.getElementById('chinmay');
-  // its basically holding an object , which represents a particular spot on html page ,
-  // and we basically called it as node ,which have one property .
-
-  // it has one property i.e innerHTML
-
-  // using inner HTML we can change the content of that node , means i,e div
-
-}
-
-for(var i = 0 ; i < questions.length ; i+= 1){
-  question = questions[i][0];
-  answer = questions[i][1];
-  response = parseInt(prompt(question));
-
-  if(response === answer){
-     correctAnswers += 1
-  }
-}
+//
+// var questions = [
+//   ['How are states are there in united states' , 50],
+//   ['How many continents are there ?' ,7],
+//   ['How many legs does an insect have?',6]
+// ];
+//
+// var  correctAnswers = 0;
+// var question;
+// var answer;
+// var response;
+// var html;
+//
+// function print(message){
+//   //document.write(message);
+//
+//   var outPut = document.getElementById('chinmay');
+//   // its basically holding an object , which represents a particular spot on html page ,
+//   // and we basically called it as node ,which have one property .
+//
+//   // it has one property i.e innerHTML
+//
+//   // using inner HTML we can change the content of that node , means i,e div
+//
+// }
+//
+// for(var i = 0 ; i < questions.length ; i+= 1){
+//   question = questions[i][0];
+//   answer = questions[i][1];
+//   response = parseInt(prompt(question));
+//
+//   if(response === answer){
+//      correctAnswers += 1
+//   }
+// }
 
 // document.write was the oldest way of writing to the DOM
 

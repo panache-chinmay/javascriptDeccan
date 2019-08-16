@@ -1,29 +1,29 @@
 //program 1
-// var randomNumber = Math.floor(Math.random()*6 + 1);
-// //console.log(randomNumber);
-// var guess = parseInt(prompt("I am thinking of number between 1 to 6. and what is that ?"));
-// if(randomNumber === guess ){
-//     document.write("<p> You guessed the number right!.</p>");
-// } else {
-//     document.write('<p>Sorry. The  number was '+ randomNumber + '</p>')
-// }
+var randomNumber = Math.floor(Math.random()*6 + 1);
+//console.log(randomNumber);
+var guess = parseInt(prompt("I am thinking of number between 1 to 6. and what is that ?"));
+if(randomNumber === guess ){
+    document.write("<p> You guessed the number right!.</p>");
+} else {
+    document.write('<p>Sorry. The  number was '+ randomNumber + '</p>')
+}
 
 
 // Program 2
+//
+Boolean values
 
-// Boolean values
-//
-// if(false) {
-//     document.write('<p>The condition is true </p>');
-// } else {
-//   document.write('<p>The condition is false </p>');
-// }
-//
-// if(true) {
-//     document.write('<p>The condition is true </p>');
-// } else {
-//   document.write('<p>The condition is false </p>');
-// }
+if(false) {
+    document.write('<p>The condition is true </p>');
+} else {
+  document.write('<p>The condition is false </p>');
+}
+
+if(true) {
+    document.write('<p>The condition is true </p>');
+} else {
+  document.write('<p>The condition is false </p>');
+}
 
 // Add conditions  are basically evaluated to true or false
 
@@ -32,18 +32,18 @@
 
 //program 3
 
-// var correctGuess = false;
-// var randomNumber = Math.floor(Math.random()*6 + 1);
-// //console.log(randomNumber);
-// var guess = parseInt(prompt("I am thinking of number between 1 to 6. and what is that ?"));
-// if(randomNumber ===  guess){
-//   correctGuess = true ;
-// }
-// if(correctGuess){
-//     document.write("<p> You guessed the number right!.</p>");
-// } else {
-//     document.write('<p>Sorry. The  number was '+ randomNumber + '</p>')
-// }
+var correctGuess = false;
+var randomNumber = Math.floor(Math.random()*6 + 1);
+//console.log(randomNumber);
+var guess = parseInt(prompt("I am thinking of number between 1 to 6. and what is that ?"));
+if(randomNumber ===  guess){
+  correctGuess = true ;
+}
+if(correctGuess){
+    document.write("<p> You guessed the number right!.</p>");
+} else {
+    document.write('<p>Sorry. The  number was '+ randomNumber + '</p>')
+}
 
 // If we want more than two possible outcomes , then we have to use
 // boolean values .
@@ -58,29 +58,29 @@
   and gives a player who attemps to guess the number
 */
 
-// var correctGuess = false;
-// var randomNumber = Math.floor(Math.random()*6 + 1);
-// var guess = parseInt(prompt("I am thinking of number between 1 to 6. and what is that ?"));
-// if(randomNumber ===  guess){
-//   correctGuess = true ;
-// }
-// else if( guess < randomNumber ) {
-//   var guessMore = parseInt(prompt('Try again, the number I am thinking is more than '+ guess));
-//     if(randomNumber ===  guessMore){
-//       correctGuess = true ;
-//     }
-//   }
-// else if(guess > randomNumber){
-//   var guessLess = parseInt(prompt('Try again, the number I am thinking is less than '+ guess));
-//   if(randomNumber === guessLess){
-//       correctGuess = true ;
-//   }
-// }
-// if(correctGuess){
-//     document.write("<p> You guessed the number right!.</p>");
-// } else {
-//     document.write('<p>Sorry. The  number was '+ randomNumber + '</p>')
-// }
+var correctGuess = false;
+var randomNumber = Math.floor(Math.random()*6 + 1);
+var guess = parseInt(prompt("I am thinking of number between 1 to 6. and what is that ?"));
+if(randomNumber ===  guess){
+  correctGuess = true ;
+}
+else if( guess < randomNumber ) {
+  var guessMore = parseInt(prompt('Try again, the number I am thinking is more than '+ guess));
+    if(randomNumber ===  guessMore){
+      correctGuess = true ;
+    }
+  }
+else if(guess > randomNumber){
+  var guessLess = parseInt(prompt('Try again, the number I am thinking is less than '+ guess));
+  if(randomNumber === guessLess){
+      correctGuess = true ;
+  }
+}
+if(correctGuess){
+    document.write("<p> You guessed the number right!.</p>");
+} else {
+    document.write('<p>Sorry. The  number was '+ randomNumber + '</p>')
+}
 
 // Program 5
 
@@ -171,22 +171,22 @@ alertRandom();
 
 // program 8
 
-// Returning a random number .
-//  function getRandomNumber(){
-//   var randomNumber = Math.floor(Math.random() * 6) + 1;
-//   return randomNumber;
-// }
-//
-// console.log(getRandomNumber());
-// alert(getRandomNumber());
-// var dieRoll = getRandomNumber();
-// console.log(dieRoll);
-// document.write();
+Returning a random number .
+ function getRandomNumber(){
+  var randomNumber = Math.floor(Math.random() * 6) + 1;
+  return randomNumber;
+}
 
-// Return statement always returns one value
-// Return statement exits the function immediatetly
-// Return statement  shoud be the last statement in the function
-// (You cannot return multiple things at once)
+console.log(getRandomNumber());
+alert(getRandomNumber());
+var dieRoll = getRandomNumber();
+console.log(dieRoll);
+document.write();
+
+Return statement always returns one value
+Return statement exits the function immediatetly
+Return statement  shoud be the last statement in the function
+(You cannot return multiple things at once)
 
 // program 9
 
@@ -204,37 +204,37 @@ alertRandom();
 //to the fucntion defintion which saves it as parameter
 // program 10
 
-var x = 10
+//var x = 10
 
-// function randomNumberG(upper){
-//   var x = Math.floor(Math.random()*upper) + 1;
-//   return x;
-// }
-// console.log(randomNumberG(9));
-// console.log(randomNumberG(90));
-// console.log(randomNumberG(999));
+function randomNumberG(upper){
+  var x = Math.floor(Math.random()*upper) + 1;
+  return x;
+}
+console.log(randomNumberG(9));
+console.log(randomNumberG(90));
+console.log(randomNumberG(999));
 
 // program 11
 
 // Finding the area of the rectangle
 
 // using 2 parameter
-// function areaOfRectangle(length,width){
-//   var area = length * width;
-//   return area ;
-// }
-// console.log(areaOfRectangle(7,8));
+function areaOfRectangle(length,width){
+  var area = length * width;
+  return area ;
+}
+console.log(areaOfRectangle(7,8));
 
 // using three parameters
 //
-// function areaofRectangle(length,width,unit){
-//    var areay = length * width ;
-//    //console.log(areay);
-//    return areay + " "+ unit;
-// }
-//
-// console.log(areaofRectangle(2,3,"sq per unit"));
-// console.log(areaofRectangle(2,3,"sq per unit"));
+function areaofRectangle(length,width,unit){
+   var areay = length * width ;
+   //console.log(areay);
+   return areay + " "+ unit;
+}
+
+console.log(areaofRectangle(2,3,"sq per unit"));
+console.log(areaofRectangle(2,3,"sq per unit"));
 
 // Program 10
 
@@ -250,7 +250,7 @@ var x = 10
 
 var wakeUp = "Hello";
 function writingVar(){
-  var wakeUp = "Sid";
+  wakeUp = "Sid";
   return wakeUp;
 }
 alert(writingVar());
@@ -258,22 +258,22 @@ alert(wakeUp);
 
 // Changing global varaible inside a varaible .
 
-// var wakeUp = "Hello";
-// function writingVar(){
-//    wakeUp = "Sid";
-//   return wakeUp;
-// }
-// alert(wakeUp);
-// alert(writingVar());
+var wakeUp = "Hello";
+function writingVar(){
+   wakeUp = "Sid";
+  return wakeUp;
+}
+alert(wakeUp);
+alert(writingVar());
 
-// var wakeUp = "Hello";
-// function writingVar(){
-//    wakeUp = "Sid";
-//   return wakeUp;
-// }
-//
-// alert(writingVar());
-// alert(wakeUp);
+var wakeUp = "Hello";
+function writingVar(){
+   wakeUp = "Sid";
+  return wakeUp;
+}
+
+alert(writingVar());
+alert(wakeUp);
 
 
 // program 11
@@ -282,6 +282,7 @@ alert(wakeUp);
 
 function generateRandom(lower, upper){
   return Math.floor(Math.random() * (upper - lower + 1) + lower);
+  //Math.floor(Math.random() * (10 - 5 + 1) + 5);
 }
 console.log(generateRandom(1,100));
 console.log(generateRandom(101,200));
@@ -303,15 +304,15 @@ The function just wont work if we pass one string value
 
 // Checking whether the user entered any "string" instead of number.
 
-// function randomGenerator (lower , upper){
-//   if(isNaN(lower) || isNaN(upper)){
-//     // throw new Error('Both the numbers should be integers');
-//      console.log("Both the arguments should be number");
-//   }
-//   return Math.floor(Math.random() * (upper - lower + 1) + lower);
-//
-// }
-//
-// console.log(randomGenerator(8 , 9));
-// //randomGenerator(8 , 9);
-// console.log(randomGenerator("New" , 9));
+function randomGenerator (lower , upper){
+  if(isNaN(lower) || isNaN(upper)){
+    // throw new Error('Both the numbers should be integers');
+     console.log("Both the arguments should be number");
+  }
+  return Math.floor(Math.random() * (upper - lower + 1) + lower);
+
+}
+
+console.log(randomGenerator(8 , 9));
+//randomGenerator(8 , 9);
+console.log(randomGenerator("New" , 9));

@@ -14,12 +14,12 @@ document.write('There are '+secondsPerDay+' seconds in a day');
 
 // // Program 2
 // // prompt() returns us the string varaible.
-//
-// var htmlBadges = prompt("Please Enter the Number of html Badges you received ? ");
-// var cssBadges = prompt ("Please Enter the Number of css Badges you received");
-// var totalBadges = htmlBadges+cssBadges;
-// document.write("There are total "+ totalBadges + " you had got");
-//
+
+var htmlBadges = prompt("Please Enter the Number of html Badges you received ? ");
+var cssBadges = prompt ("Please Enter the Number of css Badges you received");
+var totalBadges = htmlBadges+cssBadges;
+document.write("There are total "+ totalBadges + " you had got");
+
 // // program 3
 // // Using parseInt() to convert string to integer and correcting the program
 //
@@ -35,18 +35,18 @@ document.write('There are '+secondsPerDay+' seconds in a day');
 // // Let the player know how many questios are remained to be answer.
 
 // var questions = 3;
-// var questiosLeft = '[' + questions + 'questionsLeft]';
-// var adjective = prompt("Please Enter the adjective"+ questiosLeft);
-// questions --;
-// questiosLeft = '[' + questions + 'questionsLeft]';
-// var verb = prompt("Please Enter the verb"+ questiosLeft);
-// questions --;
-// questiosLeft = '[' + questions + 'questionsLeft]';
-// var noun = prompt("Please Enter the noun "+ questiosLeft);
-// var sentence = "<h2> There was a "+adjective +" programmer";
-// sentence += " who wanted to use javascript to "+verb+ " the ";
-// sentence += noun;
-// document.write(sentence);
+var questiosLeft = '[' + questions + 'questionsLeft]';
+var adjective = prompt("Please Enter the adjective"+ questiosLeft);
+questions --;
+questiosLeft = '[' + questions + 'questionsLeft]';
+var verb = prompt("Please Enter the verb"+ questiosLeft);
+questions --;
+questiosLeft = '[' + questions + 'questionsLeft]';
+var noun = prompt("Please Enter the noun "+ questiosLeft);
+var sentence = "<h2> There was a "+adjective +" programmer";
+sentence += " who wanted to use javascript to "+verb+ " the ";
+sentence += noun;
+document.write(sentence);
 //
 //
 // //program statement 5
@@ -77,12 +77,12 @@ alert("you have rolled the number " + x);
 // //The random number challenge ---
 //
 //
-// //Generate a random number till the value input  by user.
-// var userInput = parseInt(prompt("please Enter a value ?"));
-// var x = Math.floor(Math.random() * userInput) + 1;
-// alert("you have rolled the number " + x);
-// //Generate a random number till between two values generate by user.
-//
+//Generate a random number till the value input  by user.
+var userInput = parseInt(prompt("please Enter a value ?"));
+var x = Math.floor(Math.random() * userInput) + 1;
+alert("you have rolled the number " + x);
+//Generate a random number till between two values generate by user.
+
 // // program 8
 //
 var lower = parseInt(prompt("please Enter a starting value?"));
