@@ -119,7 +119,7 @@ Using an object literal, you both define and create an object in one statement.
 An object literal is a list of name:value pairs (like age:50) inside curly braces {}.
 
 The following example creates a new JavaScript object with four properties:
-
+  // Program One
 
  */
 
@@ -160,7 +160,7 @@ The following example creates a new JavaScript object with four properties:
 // //It is person. Both x and person are the same object.
 // //Any changes to x will also change person, because x and person are the same object.
 //
-//
+// Program 2
 //
 // var changeOne = {
 //    firstname : "John" ,
@@ -208,6 +208,10 @@ var x = "age";
 console.log(changeThree.firstname) // Dot Notation
 console.log(changeThree['lastName'])// Bracket Notation
 console.log(changeThree[x]);
+console.log(changeThree.eyeColor)
+console.log(changeThree);
+delete  changeThree.age;
+console.log(changeThree);
 // The expression must evalute to property name
 
 
@@ -220,5 +224,129 @@ console.log(changeThree[x]);
 // }
 //The block of code inside of the for...in loop will be executed once for each property.
 
+// Program 4
+// var txt = " ";
+// for (x in changeThree){
+//     txt += " "+changeThree[x];
+// }
+// document.write(txt);
+//
+//
+// // Giving new property to existing object.
+//
+// changeThree.nationality = "Indian";
+//
+// // Deleting the existing property
+//
+// delete changeThree.eyeColor
+//
+// //OR
+//
+// delete changeThree['eyeColor']
 
-var
+//
+
+
+/*
+
+1)The delete keyword deletes both the value of the property and the property itself.
+
+2)After deletion, the property cannot be used before it is added back again.
+
+3)The delete operator is designed to be used on object properties. It has no effect on variables or functions.
+
+4)The delete operator should not be used on predefined JavaScript object properties. It can crash your application.
+
+*/
+
+
+
+// Properties Attribute
+
+
+
+/*
+
+Property Attributes
+1) All properties have a name. In addition they also have a value.
+
+2)The value is one of the property's attributes.
+
+3)Other attributes are: enumerable, configurable, and writable.
+
+4)These attributes define how the property can be accessed (is it readable?, is it writable?)
+
+5)In JavaScript, all attributes can be read, but only the value attribute can be changed (and only if the property is writable).
+
+( ECMAScript 5 has methods for both getting and setting all property attributes)
+
+6)Prototype Properties
+JavaScript objects inherit the properties of their prototype.
+The delete keyword does not delete inherited properties,
+but if you delete a prototype property, it will affect all objects inherited from the prototype.
+
+*/
+
+
+// Javascript Object methods
+
+/*
+
+The this Keyword
+1) In a function definition, this refers to the "owner" of the function.
+
+2) In the example above, this is the person object that "owns" the fullName function.
+
+3) In other words, this.firstName means the firstName property of this object.
+
+*/
+
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+/*
+
+What is this?
+The JavaScript this keyword refers to the object it belongs to.
+
+It has different values depending on where it is used:
+
+1)In a method, this refers to the owner object.
+
+2)Alone, this refers to the global object.
+
+3)In a function, this refers to the global object.
+
+4)In a function, in strict mode, this is undefined.
+
+5)In an event, this refers to the element that received the event.
+
+6)Methods like call(), and apply() can refer this to any object.
+
+
+
+/*
+
+this in a Method
+
+In an object method, this refers to the "owner" of the method.
+
+In the example on the top of this page, this refers to the person object.
+
+The person object is the owner of the fullName method.
+
+ */
+
+
+
+
+
+
+
+*/
