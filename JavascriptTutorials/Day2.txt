@@ -1,0 +1,53 @@
+// Javascript Six
+
+document.write("Welcome to javascript"); // write is function of document.
+console.log("Welcome to the javascript") // log is function of console.
+.toLowerCase , .toUpperCase does not change the actual String
+
+Good programmer breaks the program into smaller program
+
+
+// The instructions for the story making program !
+
+// Create the variable  and capture the input
+
+//Create a separate variable for each piece of input
+
+//Add the alert to tell the visitor that they're finished
+
+// Combine the input with other strings to create a message
+
+// Print the story to the browser window
+
+
+// Working with Numbers
+
+// / Numbers
+
+Refer to screen shot
+
+// / Doing Math
+
+JavascriptSix seconds Example
+
+// / Numbers and Strings
+
+// prompt function returns string -> '31' Number is string character
+
+// Incase of string '+' symbol concatenate the string.
+
+// Command to convert string into the Int Numbers (parseInt)
+
+// Command to convert string into the Float Number (parseFloat)
+
+// WE CAN ALSO USE TO JAVASCRIP CODE AND IMMEDIATELY EXECUTE THE SAME
+
+// alert() function  has the return type of undefined
+
+// parseFloat(String)  has return  type of Float ---> It will return floating point number
+
+// parseInterger(String) has return type of Integer --> It will return NAN for parseInterger("IronMan 3")
+
+// Javascript makes you add number to string using "+" operators
+
+// DRY principle of coding which says never repeat the same lines of coding 

@@ -1,0 +1,25 @@
+Creating reusable code with function
+
+Introducing functions
+
+Javascript is sometimes called as functional programming language
+
+
+A function consists of set of instructions you want to run again and again
+
+function --> (function Keyword) gotoCoffeeShop (followed by the function name )(){
+
+// Naming convention for function is same as naming convention for varaible
+
+}
+
+// Math.floor() and Math.round() are also functions
+
+// Two ways of declaring a function
+
+// Function Declaration
+// Function expression
+
+// A function expression allows you assign function to a variable .
+
+// Function can return a value after executing   --- office / direction what to do / return type coffee

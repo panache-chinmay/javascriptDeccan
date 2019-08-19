@@ -1,0 +1,211 @@
+ Introduction to Javascript
+
+
+Javascript is the basic language to learn front end development
+
+// Facebook , GoogleMap
+
+// lokeskdhakar.com/projects/lightbox2/
+
+// We can also create a game using html css and Javascript
+
+// We can add Animations and Templates using Javascript
+
+// Spreadsheet in google document in google drive uses Javascript
+
+// Node.js can be used for server side development (Javascript can also be used for server side development)
+
+// Walmart , Paypal and LinkedIn uses Node.Js for development
+
+// Javascript can also be used to create the desktop based application (Photoshop)
+
+//Breach is a desktop based application written in javascript / Brackets is also written in javascript
+
+// We can create chrome extension using html , css and javascript (Recast studio)
+
+// Javascript can also be used to automate operating system
+
+
+
+2  About javascript
+
+A programming   language's command , special words and punctuation is called syntax
+programming concept -> Strings , Vars , Functions and OOps concept  ----> which will be applicable to all concepts
+Javascript is not java.
+
+
+3. First Javascript program
+
+alert("Welcome to Javascript")
+
+
+4 . Where does the javascript goes
+
+// Browser performs lots of different function
+
+//screenshotOne.png
+
+// Every browser has javascript interpretor which reads the instructions when the
+browser invokes javascript programme
+
+// interpretor looks for the each statement in the programme and execute the same ..
+means do what is intended to do
+
+When the browser follows the instruction in a program  , it runs or execute that program
+// Its basically a common practice to place your code in separate javascript file
+// Script tag to add the external js file --> src is the attribute with file path as value
+// Its perfectly ok to have more than one script tag on html page
+// Placing the javascript at bottom of page lets the html load first and then javascript function executes
+
+5. Javascript console
+
+// One typo and most of your programme breaks
+// All javascript broswer have javacript console , which will list the errors in javascript file.
+// Programme syntax is its vocabulary and error
+// Unexpected indentifier ..many things can cause those error
+// Uncaught TypeError : undefined is not a function
+// Programming will always have a pair of quote marks
+// Opening quote mark and closing quote marks
+
+// Incase of many syntax errors the console will always show the first syntax error
+// console.log helps the user to identify where our program is heading
+
+// Now you know the three different ways to output your messages
+
+alert("") ;/ document.write("");/console.log();
+
+
+6. The console.log challenge
+// javascript three
+
+------------------------------------------------------------------------------------------------------------>
+// 2nd folder
+
+// /Introducing variable
+
+// Storing and tracking information with variables
+
+variables -> score is a example of variables
+
+//example of box for variable
+
+
+var --> keyword creates box -- scores ---name of box  ---- equal to sign to insert value into variable
+
+// what is at right will be assigned to left
+
+// Quote marks around variable will make it String
+
+// We can overwrite the value of the variables --> for second time we don't need to use var variable
+
+//  /Naming convention for variables
+
+
+// Javascript have a list of reserved keyword
+
+// You can't create a variable named var ----> syntax error
+
+
+// variable  names does not start with number  9lives (incorrect)
+
+// names can only content  letters , numbers , $ , _
+
+//common convention is to add variable name with more than one word using _ or CamelCase
+
+// price_per_unit  or pricePerUnit
+
+
+// / Strings and Numbers
+
+
+We store values in variables --> The basic two types of values are 1) Numbers 2) Strings
+
+// Numbers can be basically used for calculations
+
+// Strings can be used for words , sentences and other text
+
+// String is nothing but the set of characters in the quote mark
+
+// String starting with single quote ends with single quote
+
+// String starting with double quote ends in double quote
+
+// If you want single quote in string use double quote
+
+// If you want single quote in string use single quote
+
+
+
+//  /Spaces ,Tabs and newline in Javascript
+
+
+// As Html and Css , Javascript does not care much about the spaces
+
+we can add spaces before and after the statement
+
+// Use spaces to make your code easily understandable and readable
+
+// A space a either side of = (equalTo) makes it easier to read
+
+// You cannot add space in middle of variable name
+
+
+// / capturing  userInput  in javascript  --> javascript five
+
+// capturing user input can be done with prompt variable
+
+
+// / Combining Strings  in  javascript
+
+
+// Combining string together is know as Concatenation in javascript
+
+// Stuff on the write goes into the left
+
+// We can concatenate string using + operator
+
+// A variable may be defined as placeholder for a string .
+
+// How to add string to the variable
+
+
+// / working with String and finding help ..
+
+
+// Best resources for javascript developer
+
+// Mozilla Developer network
+
+// Object will have properties
+
+// How to find the length of the string ..?
+
+// To test whether user had set a password , which is six character long
+
+// why is the . inside  message.length (message is object and property is length )
+
+// Length property will return the number of character of string
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+// Method is something you can do with object
+
+// Property is something that an object possess
+
+// String.prototype basically refers to string
+
+// String.prototype.toLowerCase() makes the string to LowerCase
+
+// String.prototype.toUpperCase() makes the string to UpperCase
+
+
+// Objects
+
+
+A string , the document , the browser console
+
+Objects  have properties , such as the length of string
+
+Objects have methods , which are actions the actions object can performs
+
+//  / The mad Libs challenge revisted

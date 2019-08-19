@@ -1,0 +1,163 @@
+
+Day 3 --> appSeven.js
+
+// Generating random numbers in javascript -
+
+// You create random number in javascript using Math Objects
+
+// There are various types of objects in javascript
+
+
+//Number is one type of object
+
+// String is also object in javascript
+
+// Every object will have properties and methods
+
+
+For example - Every string has property of length
+
+// Math is another type of object in java-script
+
+// Round method is used to round off values
+
+// Math.floor() will round the number to floor -> 6.57 --> 6
+
+// Math.Ceil() will round the number to ceil -> 6.89 --> 7
+
+// Math.random() will give the values between 0 and 1
+
+// If you want random number between 0 and 6
+
+// Math.random()*6
+
+// If you want to get number between one and six
+
+// In terms of programming the code runs inside out .. code inside the round bracker ()
+// will run First
+
+
+// Making decisions with conditional statements
+
+// / Introducing conditional statements
+
+// You can add the behavior  of a programmer by adding decision making to it
+
+// for example --> score game
+
+// / Comparison operator  // / Building a random number guessing game
+
+// Code inside the curly braces is know as code block
+
+// We can have block of code if condition is true
+
+// We also can have block of code if condition is false
+
+// A program quiz ...ruby with upper letter , ruby with lower letter and with Camel Case
+
+// All the conditions condition statement basically ends with yes or no -->
+
+in programming terminology (True or false)
+
+//  / Boolean values
+
+// true and false specifies a set of value called as boolean value
+
+// We can assign a boolean value to variable
+
+// / Programming multiple outcomes
+
+
+if /else if /else
+
+// / Documents code with comments
+
+ Types of comments
+
+ Single line comment
+
+ Multiline comment
+
+ Comments are useful for keeping the block of code not in use currently
+
+ Comments helps to understand the code when you come back to same code after years
+
+
+Single line comment --> // This is single line comment
+
+Multi line comment --> // This is multi-line comment
+
+
+// / combining multiple steps into a single conditions
+
+ && --> && operator to evaluate both condition are true
+
+ || --> || operator to evaluate either one of condition is true
+
+
+  No restriction on number of && or OR operator per expression
+
+// / Coding challenge --> the quiz challenge
+
+// / The quiz challenge solution
+
+// --->  if the 'if' condition is satisfied the block inside the  if condition will
+be executed irrespective of else if condition evaluated to be true .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------->

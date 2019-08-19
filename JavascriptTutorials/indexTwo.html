@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title> buttons - let and const</title>
+        </head>
+        <body>
+
+          <!-- // satendra -->
+            <h1>Buttons<h1>
+            <button> Button 0</button>
+            <button> Button 1</button>
+            <button> Button 2</button>
+            <button> Button 3</button>
+            <button> Button 4</button>
+            <button> Button 5</button>
+            <button> Button 6</button>
+            <button> Button 7</button>
+            <button> Button 8</button>
+            <button> Button 9</button>
+            <script>
+              const buttons = document.getElementsByTagName("button");
+              for(var i = 0 ; i < buttons.length ; i++){
+                console.log(i);
+                const button = buttons[i]
+                button.addEventListener("click",function(){
+                  alert("Button "+ i +"Pressed");
+                });
+              }
+            </script>
+            <!-- constant is used for values you never want reassiging -->
+            <!-- constant variable is a block of scope -->
+
+        </body>
+<html>
