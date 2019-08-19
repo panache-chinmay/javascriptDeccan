@@ -187,17 +187,17 @@ printList(list)
 
 // program 5
 
-var names = ['Chinmay','Deshpande','Sammer','Sheikh','chinmayDeshpabde'];
-// Without using length property
-// console.log(name[1]);
-// alert(name[2]);
-  for (var i = 0 ; i < 4; i += 1){
-    console.log(names[i]);
-  }
-// with using length property
-for(var i = 0 ; i < names.length ; i += 1){
-  console.log(names[i]);
-}
+// var names = ['Chinmay','Deshpande','Sammer','Sheikh','chinmayDeshpabde'];
+// // Without using length property
+// // console.log(name[1]);
+// // alert(name[2]);
+//   for (var i = 0 ; i < 4; i += 1){
+//     console.log(names[i]);
+//   }
+// // with using length property
+// for(var i = 0 ; i < names.length ; i += 1){
+//   console.log(names[i]);
+// }
 
 // Playlist Solutions and printing it in ordered list
 
@@ -239,13 +239,13 @@ for(var i = 0 ; i < names.length ; i += 1){
 // what is passed to array.
 
 // You can also pass a string containing,and the space
-                            // parameter                  // return type
+//                             parameter                  // return type
 // 1) array.concat();       array
-
+//
 // 2) array.join() ;        character to separate element  // single string combine of elements
-
+//
 // 3) array.indexof()       element                        // element index if avavilable
-                                                           //  else  -1
+                                                            //else  -1
 
 
   // var namey = ["name" , "game","same","fame"];
@@ -323,16 +323,16 @@ for(var i = 0 ; i < names.length ; i += 1){
 //   [60,80,77,90]
 // ];
 
-
+//
 // grades
-
+//
 // index     value
-
-//0         [80 , 90 ,100,95] [grades][0] // for the first student
-
-//1         [75 ,95 ,85 , 100] // for second student
-
-//2        [60 ,80 ,77 , 90]  // For third student
+//
+// 0         [80 , 90 ,100,95] [grades][0] // for the first student
+//
+// 1         [75 ,95 ,85 , 100] // for second student
+//
+// 2        [60 ,80 ,77 , 90]  // For third student
 
 
 // Multi-dimensional array ...
@@ -361,15 +361,15 @@ for(var i = 0 ; i < names.length ; i += 1){
 //   ["songThree","AuthorThree"]
 // ];
 //
-// function printSongList(){
-//   var html = "<ol>"
-//   for(var i = 0 ; i < songs.length ; i++){
-//     html += "<li> " + songs[i][0] + ' by ' + songs[i][1];
-//   }
-//   html += "</ol>"
-//   print(html);
-// }
-//
+function printSongList(){
+  var html = "<ol>"
+  for(var i = 0 ; i < songs.length ; i++){
+    html += "<li> " + songs[i][0] + ' by ' + songs[i][1]+"</li>";
+  }
+  html += "</ol>"
+  print(html);
+}
+
 // function print(list){
 //   document.write("<p> "+list+"</p>")
 // }

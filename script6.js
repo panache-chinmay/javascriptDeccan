@@ -50,10 +50,10 @@ Note :- curly braces creates an object and [] creates an array.
 
 // program 1 a)
 
-// var student = {
-//   name:"chinmay",
-//   age:28
-// }
+var student = {
+  name:"chinmay",
+  age:28
+}
 
 /* 1)  Please note the key is not in quotes , key are same as variables so
 so the rules applied to defined variable name should be same as defining  keys inspect
@@ -83,13 +83,13 @@ to make it more readable
 //
 // // program 1 c)
 //
-// var person = {
-//   name: 'Sarah',
-//   country: 'US',
-//   age:35,
-//   treehouseStudent:true,
-//   skills:[ 'Javascript','HTML',]
-// }
+var person = {
+  name: 'Sarah',
+  country: 'US',
+  age:35,
+  treehouseStudent:true,
+  skills:[ 'Javascript','HTML',]
+}
 
 
 // program 2 a)
@@ -321,5 +321,154 @@ is via bracket notation
   9) Basically web browsers are very good in understanding the string . for example (HTML tags)
 
   10) You must know everthing about jason , if you want to be successful front end developer.
+
+*/
+
+
+/*
+    More on objects
+
+
+    Objects are just like varaibles , but they contain many values
+
+
+*/
+
+
+
+var car = {
+        type:'Fiat',
+        model:'500',
+        color:'White'
+};
+
+document.write(car.type);
+
+/* The values are written in name:value pairs
+
+  1) Name and values separted by pair
+
+  2) Javascript objects are containers for named values called properties and
+  values.
+
+  3) You define and create javascript object with object literals
+
+  4)
+  Spaces and linevreaks are important , An object can span over multiple lines
+
+*/
+
+
+// var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+//
+// var  person = {
+//   firstName:'chinmay',
+//   lastName: 'deshpande',
+//   age:89,
+//   eyeColor:'blue'
+// };
+//
+//
+// console.log(`My name is ${person.firstName} and my age is ${person.age}`);
+
+// Object properties
+
+/*
+  The name:value pairs in javascript objects is calles as properties:
+
+  for e.g
+
+  Property                    Property Value
+  firstName                        John
+
+  lastName                         Doe
+
+  age                               50
+
+  eyeColor                         blue
+
+
+  Accessing object properties , basically you can access properties in two
+  ways
+
+  1) objectName.propertyName  ()
+
+  2) objectName['propertyName']
+
+  */
+
+// console.log(person.firstName);
+// console.log(person['lastName']);
+
+
+// Object Methods
+
+/*
+
+  Objects can also have methods
+
+  Methods are basically actions performed on methods
+
+  Methods are stored in properties as function definitions
+
+
+  Property                    Property Value
+  firstName                        John
+
+  lastName                         Doe
+
+  age                               50
+
+  eyeColor                         blue
+
+  fullName                         function(){
+                                    return this.firstName + + this.lastname
+                                  };
+
+
+  Basically A Method is a function which is stored as property
+
+*/
+
+
+var  person = {
+  firstName:'chinmay',
+  lastName: 'deshpande',
+  age:89,
+  eyeColor:'blue',
+  fullName: function(){
+    return `${this.firstName}  ${this.lastName}`
+    // Below is the old way
+    //return " this.firstName +' '+this.lastName"
+  }
+
+};
+
+console.log(person.fullName());
+console.log(person.fullName);
+
+/*
+  The this keyword
+
+1)  In a function definition , this refer to the "owner" of the function.
+
+2)  In the example obove , this is the person object that "owns" the fullName functions
+
+3)  In the other words , this .firstName means the first property of this object.
+
+  // Accessing object methods
+
+  // you can access object method with following methods
+
+
+  objectName.methodName()
+
+
+4) if you access the function without parameters , it will return function
+  definition
+
+
+5) When a JavaScript variable is declared with the keyword "new",
+the variable is created as an object.
 
 */
