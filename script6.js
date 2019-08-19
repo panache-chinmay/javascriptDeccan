@@ -50,10 +50,10 @@ Note :- curly braces creates an object and [] creates an array.
 
 // program 1 a)
 
-var student = {
-  name:"chinmay",
-  age:28
-}
+// var student = {
+//   name:"chinmay",
+//   age:28
+// }
 
 /* 1)  Please note the key is not in quotes , key are same as variables so
 so the rules applied to defined variable name should be same as defining  keys inspect
@@ -83,13 +83,13 @@ to make it more readable
 //
 // // program 1 c)
 //
-var person = {
-  name: 'Sarah',
-  country: 'US',
-  age:35,
-  treehouseStudent:true,
-  skills:[ 'Javascript','HTML',]
-}
+// var person = {
+//   name: 'Sarah',
+//   country: 'US',
+//   age:35,
+//   treehouseStudent:true,
+//   skills:[ 'Javascript','HTML',]
+// }
 
 
 // program 2 a)
@@ -336,13 +336,13 @@ is via bracket notation
 
 
 
-var car = {
-        type:'Fiat',
-        model:'500',
-        color:'White'
-};
-
-document.write(car.type);
+// var car = {
+//         type:'Fiat',
+//         model:'500',
+//         color:'White'
+// };
+//
+// document.write(car.type);
 
 /* The values are written in name:value pairs
 
@@ -431,21 +431,21 @@ document.write(car.type);
 */
 
 
-var  person = {
-  firstName:'chinmay',
-  lastName: 'deshpande',
-  age:89,
-  eyeColor:'blue',
-  fullName: function(){
-    return `${this.firstName}  ${this.lastName}`
-    // Below is the old way
-    //return " this.firstName +' '+this.lastName"
-  }
-
-};
-
-console.log(person.fullName());
-console.log(person.fullName);
+// var  person = {
+//   firstName:'chinmay',
+//   lastName: 'deshpande',
+//   age:89,
+//   eyeColor:'blue',
+//   fullName: function(){
+//     return `${this.firstName}  ${this.lastName}`
+//     // Below is the old way
+//     //return " this.firstName +' '+this.lastName"
+//   }
+//
+// };
+//
+// console.log(person.fullName());
+// console.log(person.fullName);
 
 /*
   The this keyword
