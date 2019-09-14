@@ -136,27 +136,27 @@
 // })
 //
 // // function will get called and with li as function parameter
-// function addbuttonofListitems(li){
-// // we need to create up down and remove button for all li elements
-// // mention code here and call the function
-// let up = document.createElement('button');
-// up.className = 'up';
-// up.textContent = 'Up'
-// li.appendChild(up); // we are adding button to li element so appening
-//
-// let down = document.createElement('button');
-// down.className = 'down';
-// down.textContent = 'Down'
-// li.appendChild(down);
-//
-// let remove = document.createElement('button');
-// remove.className = 'remove';
-// remove.textContent = 'Remove'
-// li.appendChild(remove);
-// //calling the function before adding new list item in ul
-// //calling the fucntion in additems
-// //take all list as one array in one so that predefined list have buttons
-// }
+function addbuttonofListitems(li){
+// we need to create up down and remove button for all li elements
+// mention code here and call the function
+let up = document.createElement('button');
+up.className = 'up';
+up.textContent = 'Up'
+li.appendChild(up); // we are adding button to li element so appening
+
+let down = document.createElement('button');
+down.className = 'down';
+down.textContent = 'Down'
+li.appendChild(down);
+
+let remove = document.createElement('button');
+remove.className = 'remove';
+remove.textContent = 'Remove'
+li.appendChild(remove);
+//calling the function before adding new list item in ul
+//calling the fucntion in additems
+//take all list as one array in one so that predefined list have buttons
+}
 //
 //
 //
